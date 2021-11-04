@@ -14,7 +14,6 @@ $address = '4255 Bryant Irvin Road, Fort Worth, TX'; //The location of one of Th
 $apiKey = '677511b7e8e96111bd656d7ebe1d1e6ec1c156c'; //This is a live API key on a free account (rate limited on Geocod.io's free tier)
 
 $geocode = new GeoCodeLib($apiKey);
-$geocode->getCoordinatesOfAddress($address);
 $geocodeResult = $geocode->getCoordinatesOfAddress($address);
 print_r($geocodeResult);
 
