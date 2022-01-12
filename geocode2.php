@@ -8,7 +8,7 @@
 //Reconstruct the geocode class with:
 // 1. The API key being passed in the constructor
 // 2. The API interaction broken into a separate method
-// 3. Extra Credit - Caching implemented (as a class property for storing cached results)
+// 3. Extra Credit - Memoization implemented for caching results
 
 $address = '4255 Bryant Irvin Road, Fort Worth, TX'; //The location of one of The Perfect Workout's studios in Fort Worth, TX
 $apiKey = '677511b7e8e96111bd656d7ebe1d1e6ec1c156c'; //This is a live API key on a free account (rate limited on Geocod.io's free tier)
