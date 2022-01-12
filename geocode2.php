@@ -21,7 +21,6 @@ class GeoCodeLib
 {
 
     public string $geocodeioApiKey;
-    public array $cache = [];
 
     public function getCoordinatesOfAddress($address)
     {
